@@ -1,0 +1,413 @@
+2019-03-28 10:01:43.363  INFO 7456 --- [restartedMain] com.lock.Application                     : Starting Application on DESKTOP-LAH3RHM with PID 7456 (E:\workspace\boot_lock\target\classes started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:01:43.370  INFO 7456 --- [restartedMain] com.lock.Application                     : The following profiles are active: dev
+2019-03-28 10:01:43.427  INFO 7456 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7079233a: startup date [Thu Mar 28 10:01:43 CST 2019]; root of context hierarchy
+2019-03-28 10:01:44.884  INFO 7456 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23fff949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:01:45.725  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-28 10:01:45.752  INFO 7456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:01:45.753  INFO 7456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:01:45.761  INFO 7456 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:01:45.842  INFO 7456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:01:45.842  INFO 7456 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2415 ms
+2019-03-28 10:01:46.003  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:01:46.004  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:01:46.007  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:01:46.008  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:01:46.008  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:01:46.008  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:01:46.008  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:01:46.044  INFO 7456 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:01:46.212  INFO 7456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:01:46.514  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:01:46.536  INFO 7456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:01:46.629  INFO 7456 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:01:46.631  INFO 7456 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:01:46.675  INFO 7456 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:01:46.796  INFO 7456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:01:47.002  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:01:47.374  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:01:47.624  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7079233a: startup date [Thu Mar 28 10:01:43 CST 2019]; root of context hierarchy
+2019-03-28 10:01:47.662  WARN 7456 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:01:47.699  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:01:47.700  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:01:47.701  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:01:47.702  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:01:47.723  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:01:47.723  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:01:47.965  INFO 7456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 10:01:48.003  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-28 10:01:48.005  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 10:01:48.005  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 10:01:48.009  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 10:01:48.009  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 10:01:48.045  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 10:01:48.048  INFO 7456 --- [restartedMain] com.lock.Application                     : Started Application in 4.999 seconds (JVM running for 5.456)
+2019-03-28 10:02:03.156  INFO 13324 --- [main] boot_lock.ApplicationTest                : Starting ApplicationTest on DESKTOP-LAH3RHM with PID 13324 (started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:02:03.157  INFO 13324 --- [main] boot_lock.ApplicationTest                : The following profiles are active: dev
+2019-03-28 10:02:03.175  INFO 13324 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:02:03 CST 2019]; root of context hierarchy
+2019-03-28 10:02:04.038  INFO 13324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e54789d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:02:04.771  INFO 13324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-03-28 10:02:04.794  INFO 13324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:02:04.795  INFO 13324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:02:04.802  INFO 13324 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:02:04.899  INFO 13324 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:02:04.899  INFO 13324 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1724 ms
+2019-03-28 10:02:05.066  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:02:05.067  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:02:05.070  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:02:05.070  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:02:05.070  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:02:05.070  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:02:05.070  INFO 13324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:02:05.107  INFO 13324 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:02:05.266  INFO 13324 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:02:05.581  INFO 13324 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:02:05.600  INFO 13324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:02:05.670  INFO 13324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:02:05.672  INFO 13324 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:02:05.718  INFO 13324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:02:05.847  INFO 13324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:02:06.082  INFO 13324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:02:06.411  INFO 13324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:02:06.704  INFO 13324 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:02:03 CST 2019]; root of context hierarchy
+2019-03-28 10:02:06.743  WARN 13324 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:02:06.778  INFO 13324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:02:06.779  INFO 13324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:02:06.781  INFO 13324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:02:06.782  INFO 13324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:02:06.811  INFO 13324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:02:06.812  INFO 13324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:02:07.107  INFO 13324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51489 (http) with context path ''
+2019-03-28 10:02:07.110  INFO 13324 --- [main] boot_lock.ApplicationTest                : Started ApplicationTest in 4.278 seconds (JVM running for 5.049)
+2019-03-28 10:02:07.259  INFO 13324 --- [Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:02:03 CST 2019]; root of context hierarchy
+2019-03-28 10:02:07.268  INFO 13324 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:02:07.272  INFO 13324 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-28 10:02:07.556  INFO 7456 --- [http-nio-8088-exec-38] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 10:02:07.556  INFO 7456 --- [http-nio-8088-exec-38] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 10:02:07.575  INFO 7456 --- [http-nio-8088-exec-38] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-03-28 10:02:08.075  INFO 7456 --- [http-nio-8088-exec-55] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-03-28 10:02:08.129  INFO 7456 --- [http-nio-8088-exec-55] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-03-28 10:03:13.729  INFO 7456 --- [Thread-6] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7079233a: startup date [Thu Mar 28 10:01:43 CST 2019]; root of context hierarchy
+2019-03-28 10:03:13.731  INFO 7456 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-03-28 10:03:13.731  INFO 7456 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-03-28 10:03:13.732  INFO 7456 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:13.736  INFO 7456 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-28 10:03:14.298  INFO 7456 --- [restartedMain] com.lock.Application                     : Starting Application on DESKTOP-LAH3RHM with PID 7456 (E:\workspace\boot_lock\target\classes started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:03:14.299  INFO 7456 --- [restartedMain] com.lock.Application                     : The following profiles are active: dev
+2019-03-28 10:03:14.302  INFO 7456 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a7dd7db: startup date [Thu Mar 28 10:03:14 CST 2019]; root of context hierarchy
+2019-03-28 10:03:14.588  INFO 7456 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23fff949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:03:14.680  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-28 10:03:14.681  INFO 7456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:03:14.681  INFO 7456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:03:14.708  INFO 7456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:03:14.710  INFO 7456 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 407 ms
+2019-03-28 10:03:14.748  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:03:14.749  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:03:14.749  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:03:14.749  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:03:14.749  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:03:14.750  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:03:14.750  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:03:14.756  INFO 7456 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:03:14.797  INFO 7456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2019-03-28 10:03:14.832  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:14.832  INFO 7456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:03:14.840  INFO 7456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:03:14.849  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:14.924  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:14.992  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a7dd7db: startup date [Thu Mar 28 10:03:14 CST 2019]; root of context hierarchy
+2019-03-28 10:03:14.996  WARN 7456 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:03:15.001  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:03:15.001  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:03:15.002  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:03:15.002  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:03:15.011  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:15.011  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:15.083  INFO 7456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 10:03:15.098  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-28 10:03:15.099  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 10:03:15.099  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 10:03:15.101  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 10:03:15.102  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 10:03:15.108  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 10:03:15.109  INFO 7456 --- [restartedMain] com.lock.Application                     : Started Application in 0.845 seconds (JVM running for 92.516)
+2019-03-28 10:03:15.111  INFO 7456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-28 10:03:32.542  INFO 10428 --- [main] boot_lock.ApplicationTest                : Starting ApplicationTest on DESKTOP-LAH3RHM with PID 10428 (started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:03:32.543  INFO 10428 --- [main] boot_lock.ApplicationTest                : The following profiles are active: dev
+2019-03-28 10:03:32.561  INFO 10428 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:03:32 CST 2019]; root of context hierarchy
+2019-03-28 10:03:33.397  INFO 10428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77f0a62e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:03:34.136  INFO 10428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-03-28 10:03:34.163  INFO 10428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:03:34.163  INFO 10428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:03:34.171  INFO 10428 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:03:34.271  INFO 10428 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:03:34.271  INFO 10428 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1710 ms
+2019-03-28 10:03:34.439  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:03:34.440  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:03:34.443  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:03:34.443  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:03:34.443  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:03:34.443  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:03:34.443  INFO 10428 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:03:34.482  INFO 10428 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:03:34.634  INFO 10428 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:03:34.921  INFO 10428 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:34.936  INFO 10428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:03:35.014  INFO 10428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:03:35.015  INFO 10428 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:03:35.056  INFO 10428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:03:35.191  INFO 10428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:03:35.433  INFO 10428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:35.753  INFO 10428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:36.037  INFO 10428 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:03:32 CST 2019]; root of context hierarchy
+2019-03-28 10:03:36.074  WARN 10428 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:03:36.111  INFO 10428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:03:36.112  INFO 10428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:03:36.114  INFO 10428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:03:36.114  INFO 10428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:03:36.142  INFO 10428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:36.142  INFO 10428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:03:36.409  INFO 10428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51644 (http) with context path ''
+2019-03-28 10:03:36.412  INFO 10428 --- [main] boot_lock.ApplicationTest                : Started ApplicationTest in 4.165 seconds (JVM running for 4.816)
+2019-03-28 10:03:36.546  INFO 10428 --- [Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e13529a: startup date [Thu Mar 28 10:03:32 CST 2019]; root of context hierarchy
+2019-03-28 10:03:36.554  INFO 10428 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:03:36.560  INFO 10428 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-28 10:03:36.747  INFO 7456 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 10:03:36.749  INFO 7456 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 10:03:36.756  INFO 7456 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2019-03-28 10:04:55.013  INFO 7456 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a7dd7db: startup date [Thu Mar 28 10:03:14 CST 2019]; root of context hierarchy
+2019-03-28 10:04:55.014  INFO 7456 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-03-28 10:04:55.014  INFO 7456 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-03-28 10:04:55.015  INFO 7456 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:04:55.019  INFO 7456 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2019-03-28 10:04:55.543  INFO 7456 --- [restartedMain] com.lock.Application                     : Starting Application on DESKTOP-LAH3RHM with PID 7456 (E:\workspace\boot_lock\target\classes started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:04:55.543  INFO 7456 --- [restartedMain] com.lock.Application                     : The following profiles are active: dev
+2019-03-28 10:04:55.545  INFO 7456 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1af7e891: startup date [Thu Mar 28 10:04:55 CST 2019]; root of context hierarchy
+2019-03-28 10:04:55.786  INFO 7456 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23fff949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:04:55.866  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-28 10:04:55.867  INFO 7456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:04:55.867  INFO 7456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:04:55.881  INFO 7456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:04:55.881  INFO 7456 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 336 ms
+2019-03-28 10:04:55.911  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:04:55.912  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:04:55.918  INFO 7456 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:04:55.948  INFO 7456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2019-03-28 10:04:55.979  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:04:55.979  INFO 7456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:04:55.984  INFO 7456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:04:55.991  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:04:56.061  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:04:56.133  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1af7e891: startup date [Thu Mar 28 10:04:55 CST 2019]; root of context hierarchy
+2019-03-28 10:04:56.136  WARN 7456 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:04:56.142  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:04:56.142  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:04:56.143  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:04:56.144  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:04:56.152  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:04:56.152  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:04:56.214  INFO 7456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 10:04:56.230  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-28 10:04:56.230  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 10:04:56.230  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 10:04:56.231  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 10:04:56.232  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 10:04:56.239  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 10:04:56.239  INFO 7456 --- [restartedMain] com.lock.Application                     : Started Application in 0.72 seconds (JVM running for 193.647)
+2019-03-28 10:04:56.241  INFO 7456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-28 10:19:31.609  INFO 22656 --- [main] boot_lock.ApplicationTest                : Starting ApplicationTest on DESKTOP-LAH3RHM with PID 22656 (started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:19:31.609  INFO 22656 --- [main] boot_lock.ApplicationTest                : The following profiles are active: dev
+2019-03-28 10:19:31.663  INFO 22656 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a486d78: startup date [Thu Mar 28 10:19:31 CST 2019]; root of context hierarchy
+2019-03-28 10:19:32.573  INFO 22656 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d999a9b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:19:33.366  INFO 22656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-03-28 10:19:33.392  INFO 22656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:19:33.392  INFO 22656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:19:33.400  INFO 22656 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\soft\jdk\jre\bin;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:19:33.518  INFO 22656 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:19:33.518  INFO 22656 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1855 ms
+2019-03-28 10:19:33.716  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:19:33.717  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:19:33.722  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:19:33.722  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:19:33.722  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:19:33.722  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:19:33.723  INFO 22656 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:19:33.767  INFO 22656 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:19:33.937  INFO 22656 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:19:34.271  INFO 22656 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:19:34.292  INFO 22656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:19:34.385  INFO 22656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:19:34.387  INFO 22656 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:19:34.429  INFO 22656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:19:34.581  INFO 22656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:19:34.832  INFO 22656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:19:35.241  INFO 22656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:19:35.617  INFO 22656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a486d78: startup date [Thu Mar 28 10:19:31 CST 2019]; root of context hierarchy
+2019-03-28 10:19:35.660  WARN 22656 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:19:35.709  INFO 22656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:19:35.710  INFO 22656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:19:35.712  INFO 22656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:19:35.713  INFO 22656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:19:35.751  INFO 22656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:19:35.752  INFO 22656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:19:36.106  INFO 22656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52775 (http) with context path ''
+2019-03-28 10:19:36.110  INFO 22656 --- [main] boot_lock.ApplicationTest                : Started ApplicationTest in 4.814 seconds (JVM running for 5.739)
+2019-03-28 10:19:36.400  INFO 22656 --- [Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a486d78: startup date [Thu Mar 28 10:19:31 CST 2019]; root of context hierarchy
+2019-03-28 10:19:36.406  INFO 22656 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:19:36.418  INFO 22656 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-28 10:19:36.448  INFO 7456 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 10:19:36.449  INFO 7456 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 10:19:36.457  INFO 7456 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2019-03-28 10:21:33.011  INFO 7456 --- [Thread-16] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1af7e891: startup date [Thu Mar 28 10:04:55 CST 2019]; root of context hierarchy
+2019-03-28 10:21:33.012  INFO 7456 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-03-28 10:21:33.013  INFO 7456 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-03-28 10:21:33.013  INFO 7456 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:21:33.016  INFO 7456 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2019-03-28 10:21:33.563  INFO 7456 --- [restartedMain] com.lock.Application                     : Starting Application on DESKTOP-LAH3RHM with PID 7456 (E:\workspace\boot_lock\target\classes started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:21:33.563  INFO 7456 --- [restartedMain] com.lock.Application                     : The following profiles are active: dev
+2019-03-28 10:21:33.565  INFO 7456 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@345b2fa3: startup date [Thu Mar 28 10:21:33 CST 2019]; root of context hierarchy
+2019-03-28 10:21:33.821  INFO 7456 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23fff949] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:21:33.902  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-28 10:21:33.903  INFO 7456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:21:33.903  INFO 7456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:21:33.919  INFO 7456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:21:33.920  INFO 7456 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 355 ms
+2019-03-28 10:21:33.947  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:21:33.948  INFO 7456 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:21:33.954  INFO 7456 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:21:33.981  INFO 7456 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2019-03-28 10:21:34.010  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:21:34.010  INFO 7456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:21:34.017  INFO 7456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:21:34.026  INFO 7456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:21:34.094  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:21:34.158  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@345b2fa3: startup date [Thu Mar 28 10:21:33 CST 2019]; root of context hierarchy
+2019-03-28 10:21:34.163  WARN 7456 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:21:34.168  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:21:34.168  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:21:34.169  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:21:34.169  INFO 7456 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:21:34.177  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:21:34.177  INFO 7456 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:21:34.246  INFO 7456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 10:21:34.258  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-28 10:21:34.259  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 10:21:34.259  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 10:21:34.260  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 10:21:34.261  INFO 7456 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 10:21:34.268  INFO 7456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 10:21:34.268  INFO 7456 --- [restartedMain] com.lock.Application                     : Started Application in 0.729 seconds (JVM running for 1191.676)
+2019-03-28 10:21:34.270  INFO 7456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-28 10:23:00.364  INFO 5404 --- [restartedMain] com.lock.Application                     : Starting Application on DESKTOP-LAH3RHM with PID 5404 (E:\workspace\boot_lock\target\classes started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:23:00.365  INFO 5404 --- [restartedMain] com.lock.Application                     : The following profiles are active: dev
+2019-03-28 10:23:00.407  INFO 5404 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7079233a: startup date [Thu Mar 28 10:23:00 CST 2019]; root of context hierarchy
+2019-03-28 10:23:01.375  INFO 5404 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44544db9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:23:02.171  INFO 5404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-28 10:23:02.194  INFO 5404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:23:02.195  INFO 5404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:23:02.202  INFO 5404 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:23:02.288  INFO 5404 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:23:02.288  INFO 5404 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1881 ms
+2019-03-28 10:23:02.431  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:23:02.432  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:23:02.435  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:23:02.435  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:23:02.435  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:23:02.435  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:23:02.436  INFO 5404 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:23:02.465  INFO 5404 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:23:02.620  INFO 5404 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:23:02.951  INFO 5404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:23:02.968  INFO 5404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:23:03.045  INFO 5404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:23:03.047  INFO 5404 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:23:03.096  INFO 5404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:23:03.233  INFO 5404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:23:03.430  INFO 5404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:23:03.765  INFO 5404 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:23:03.993  INFO 5404 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7079233a: startup date [Thu Mar 28 10:23:00 CST 2019]; root of context hierarchy
+2019-03-28 10:23:04.025  WARN 5404 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:23:04.054  INFO 5404 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:23:04.055  INFO 5404 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:23:04.058  INFO 5404 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:23:04.058  INFO 5404 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:23:04.084  INFO 5404 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:23:04.084  INFO 5404 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:23:04.337  INFO 5404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-28 10:23:04.366  INFO 5404 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-03-28 10:23:04.367  INFO 5404 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 10:23:04.368  INFO 5404 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 10:23:04.372  INFO 5404 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 10:23:04.373  INFO 5404 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 10:23:04.406  INFO 5404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 10:23:04.410  INFO 5404 --- [restartedMain] com.lock.Application                     : Started Application in 4.352 seconds (JVM running for 4.788)
+2019-03-28 10:24:12.820  INFO 23872 --- [main] boot_lock.ApplicationTest                : Starting ApplicationTest on DESKTOP-LAH3RHM with PID 23872 (started by Lenovo in E:\workspace\boot_lock)
+2019-03-28 10:24:12.820  INFO 23872 --- [main] boot_lock.ApplicationTest                : The following profiles are active: dev
+2019-03-28 10:24:12.879  INFO 23872 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a97744: startup date [Thu Mar 28 10:24:12 CST 2019]; root of context hierarchy
+2019-03-28 10:24:13.869  INFO 23872 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39474526] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 10:24:14.690  INFO 23872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-03-28 10:24:14.717  INFO 23872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-28 10:24:14.718  INFO 23872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-03-28 10:24:14.728  INFO 23872 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\soft\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\soft\jdk\jre\bin;E:/soft/jre/bin/server;E:/soft/jre/bin;E:/soft/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\soft\mysql\bin;E:\soft\svn\bin;E:\soft\node\;E:\soft\maven\apache-maven-3.6.0\bin;E:\soft\webstorm\WebStorm 2018.3.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;E:\soft\eclipse;;.]
+2019-03-28 10:24:14.835  INFO 23872 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-28 10:24:14.835  INFO 23872 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1956 ms
+2019-03-28 10:24:15.020  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-03-28 10:24:15.021  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 10:24:15.027  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 10:24:15.027  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 10:24:15.027  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 10:24:15.028  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 10:24:15.028  INFO 23872 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 10:24:15.067  INFO 23872 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-03-28 10:24:15.231  INFO 23872 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-28 10:24:15.582  INFO 23872 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:24:15.602  INFO 23872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-28 10:24:15.699  INFO 23872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-03-28 10:24:15.701  INFO 23872 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-28 10:24:15.755  INFO 23872 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-03-28 10:24:15.930  INFO 23872 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-28 10:24:16.170  INFO 23872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:24:16.584  INFO 23872 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:24:16.915  INFO 23872 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a97744: startup date [Thu Mar 28 10:24:12 CST 2019]; root of context hierarchy
+2019-03-28 10:24:16.971  WARN 23872 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-28 10:24:17.013  INFO 23872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalogRetry],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalogWithRetry(java.lang.Long,java.lang.String)
+2019-03-28 10:24:17.014  INFO 23872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/catalog],methods=[POST]}" onto public java.lang.String com.lock.controller.CatalogController.browseCatalog(java.lang.Long,java.lang.String)
+2019-03-28 10:24:17.016  INFO 23872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 10:24:17.017  INFO 23872 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 10:24:17.054  INFO 23872 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:24:17.054  INFO 23872 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 10:24:17.420  INFO 23872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53108 (http) with context path ''
+2019-03-28 10:24:17.424  INFO 23872 --- [main] boot_lock.ApplicationTest                : Started ApplicationTest in 4.918 seconds (JVM running for 5.78)
+2019-03-28 10:24:17.567  INFO 23872 --- [Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34a97744: startup date [Thu Mar 28 10:24:12 CST 2019]; root of context hierarchy
+2019-03-28 10:24:17.576  INFO 23872 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-28 10:24:17.587  INFO 23872 --- [Thread-4] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-28 10:24:17.703  INFO 5404 --- [http-nio-8088-exec-38] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 10:24:17.704  INFO 5404 --- [http-nio-8088-exec-38] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 10:24:17.726  INFO 5404 --- [http-nio-8088-exec-38] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms

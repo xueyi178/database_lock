@@ -1,0 +1,27 @@
+#配置端口号
+server:
+  port: 8088
+
+
+#引用开发环境的数据配置文件
+spring:
+    profiles: 
+        active: dev
+
+      
+#mybatis配置文件
+mybatis:
+    #扫描实体类
+     type-aliases-package: com.lock.entity
+    #扫描mybatis文件
+     mapper-locations: classpath:mybatis/*.xml
+#开启控制台打印sql语句，一般用于本地开发测试
+     configuration:
+             log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#pagehelper分页插件配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params:
